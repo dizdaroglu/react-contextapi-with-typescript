@@ -1,4 +1,4 @@
-import React from 'react';
+import * as React from 'react';
 import { IState, IAction } from '../Interface/interface';
 
 const initialState: IState = {
