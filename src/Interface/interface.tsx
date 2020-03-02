@@ -28,12 +28,12 @@ export interface IEpisode {
 }
 
 export interface IEpisodeProps {
-  episode: IEpisode;
+  episodes: IEpisode[];
   store: { state: IState; dispatch: Dispatch };
-  favourites: Array<IEpisode>;
   toggleFavAction: (
     state: IState,
     dispatch: Dispatch,
     episode: IEpisode
   ) => IAction;
+  favourites: Array<IEpisode>;
 }
