@@ -17,12 +17,28 @@ code {
     monospace;
 }
 
-header {
+.header {
   display: flex;
   align-items: center;
+  background: white;
   justify-content: space-between;
   padding: 1rem;
   position: sticky;
   top: 0;
   border-bottom: 1px solid black;
+}
+.episode-layout {
+  display: flex;
+  flex-wrap: wrap;
+  min-width: 100vh;
+  justify-content: center;
+}
+.episode-box {
+  padding: 0.5rem;
+}
+.link {
+  border: 1px solid black;
+  text-decoration: none;
+  padding: 10px;
+  margin-left: 5px;
 }
